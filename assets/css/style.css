@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+ body {
+  background: grey;
+  font-size: 1.6rem;
+  font-family: 'NotoSerif-medium';
+  color: black;
+  line-height: 1;
+}
+
+ h1, h2, h3, p, a {
+   font-weight: normal;
+   font-size: 2.4rem
+}
+
+ h1 {
+   text-transform: uppercase;
+ }
+
+ h2 {
+   padding: 1em 2em 1em 2em;
+   text-align: center;
+ }
+
+* {
+  color: black;
+}
+
+ header {
+   display: flex;
+   flex-direction: row;
+   width: calc(100vw - 2rem);
+ }
+
+ h1, nav {
+   flex: 1;
+   outline: 1px solid red;
+ }
+
+ main {
+   display: flex;
+   flex-direction: row;
+   width: 100vw;
+ }
+
+ article {
+   flex: 1;
+ }
+
+ img {
+  display: inline;  
+ }
